@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+project/.vs/asm_practice/v15/*
+project/Debug/*
