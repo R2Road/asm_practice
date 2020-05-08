@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="practice">
-      <UniqueIdentifier>{e5120c81-9f71-4a4b-b787-cfa4a2cd7739}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="practice\sum.cpp">
-      <Filter>practice</Filter>
-    </ClCompile>
     <ClCompile Include="practice\eax.cpp">
       <Filter>practice</Filter>
     </ClCompile>
+    <ClCompile Include="practice\sum.cpp">
+      <Filter>practice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="practice\sum.h">
+    <Filter Include="practice">
+      <UniqueIdentifier>{79c4bd83-31f9-4772-8d58-b8a36e7c63bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="practice\eax.h">
       <Filter>practice</Filter>
     </ClInclude>
-    <ClInclude Include="practice\eax.h">
+    <ClInclude Include="practice\sum.h">
       <Filter>practice</Filter>
     </ClInclude>
   </ItemGroup>

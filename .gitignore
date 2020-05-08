@@ -30,5 +30,5 @@
 *.exe
 *.out
 *.app
-practice32/.vs/asm_practice/v15/*
+practice32/.vs/*
 practice32/Debug/*
