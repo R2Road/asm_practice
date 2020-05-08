@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "sum.h"
 
 int cpp_sum( const int right, const int left )

@@ -7,13 +7,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="pch.cpp" />
     <ClCompile Include="practice\sum.cpp">
       <Filter>practice</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h" />
     <ClInclude Include="practice\sum.h">
       <Filter>practice</Filter>
     </ClInclude>
