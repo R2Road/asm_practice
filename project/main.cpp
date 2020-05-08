@@ -1,16 +1,10 @@
 ﻿#include "pch.h"
 #include <iostream>
 
-int sum( int left, int right )
-{
-	__asm {
-		mov eax, left;
-		mov ebx, right;
-		add eax, ebx;
-	}
-}
+#include "practice/sum.h"
 
 int main()
 {
-	std::cout << "Sum : " << sum( 1, 2 );
+	std::cout << "CPP Sum : " << cpp_sum( 1, 2 ) << std::endl;
+	std::cout << "ASM Sum : " << asm_sum( 2, 3 ) << std::endl;
 }
