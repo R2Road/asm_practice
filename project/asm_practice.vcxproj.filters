@@ -10,9 +10,15 @@
     <ClCompile Include="practice\sum.cpp">
       <Filter>practice</Filter>
     </ClCompile>
+    <ClCompile Include="practice\eax.cpp">
+      <Filter>practice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice\sum.h">
+      <Filter>practice</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\eax.h">
       <Filter>practice</Filter>
     </ClInclude>
   </ItemGroup>
