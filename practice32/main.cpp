@@ -1,9 +1,9 @@
 ﻿#include <iostream>
 
-#include "practice/eax.h"
+#include "practice/mnemonic_sub.h"
 
 int main()
 {
-	std::cout << "CPP Eax : " << cpp_eax() << std::endl;
-	std::cout << "ASM Eax : " << asm_eax() << std::endl;
+	std::cout << "CPP Sub : " << cpp_sub( 5, 4 ) << std::endl;
+	std::cout << "ASM Sub : " << asm_sub( 5, 4 ) << std::endl;
 }
