@@ -22,12 +22,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="practice\eax.cpp" />
     <ClCompile Include="practice\mnemonic_sub.cpp" />
-    <ClCompile Include="practice\sum.cpp" />
+    <ClCompile Include="practice\mnemonic_add.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice\eax.h" />
     <ClInclude Include="practice\mnemonic_sub.h" />
-    <ClInclude Include="practice\sum.h" />
+    <ClInclude Include="practice\mnemonic_add.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

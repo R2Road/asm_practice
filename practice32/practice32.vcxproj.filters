@@ -5,10 +5,10 @@
     <ClCompile Include="practice\eax.cpp">
       <Filter>practice</Filter>
     </ClCompile>
-    <ClCompile Include="practice\sum.cpp">
+    <ClCompile Include="practice\mnemonic_sub.cpp">
       <Filter>practice</Filter>
     </ClCompile>
-    <ClCompile Include="practice\mnemonic_sub.cpp">
+    <ClCompile Include="practice\mnemonic_add.cpp">
       <Filter>practice</Filter>
     </ClCompile>
   </ItemGroup>
@@ -21,10 +21,10 @@
     <ClInclude Include="practice\eax.h">
       <Filter>practice</Filter>
     </ClInclude>
-    <ClInclude Include="practice\sum.h">
+    <ClInclude Include="practice\mnemonic_sub.h">
       <Filter>practice</Filter>
     </ClInclude>
-    <ClInclude Include="practice\mnemonic_sub.h">
+    <ClInclude Include="practice\mnemonic_add.h">
       <Filter>practice</Filter>
     </ClInclude>
   </ItemGroup>
