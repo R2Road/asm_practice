@@ -4,6 +4,6 @@
 
 int main()
 {
-	std::cout << "CPP Add : " << cpp_sum( 5, 4 ) << std::endl;
-	std::cout << "ASM Add : " << asm_sum( 5, 4 ) << std::endl;
+	std::cout << "CPP Add : " << cpp_add( 5, 4 ) << std::endl;
+	std::cout << "ASM Add : " << asm_add( 5, 4 ) << std::endl;
 }

@@ -1,15 +1,14 @@
 #include "mnemonic_add.h"
 
-int cpp_sum( const int right, const int left )
+int cpp_add( const int left, const int right )
 {
-	return right + left;
+	return left + right;
 }
 
-int asm_sum( const int right, const int left )
+int asm_add( const int right, const int left )
 {
 	__asm {
-		mov eax, right;
-		mov ebx, left;
-		add eax, ebx;
+		mov eax, left;
+		add eax, right;
 	}
 }
