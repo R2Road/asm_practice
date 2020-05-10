@@ -2,48 +2,54 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="practice\mnemonic_sub.cpp">
-      <Filter>practice</Filter>
+    <ClCompile Include="practice\data_register_eax.cpp">
+      <Filter>practice\00_data_register</Filter>
     </ClCompile>
     <ClCompile Include="practice\mnemonic_add.cpp">
-      <Filter>practice</Filter>
-    </ClCompile>
-    <ClCompile Include="practice\data_register_eax.cpp">
-      <Filter>practice</Filter>
-    </ClCompile>
-    <ClCompile Include="practice\mnemonic_mul.cpp">
-      <Filter>practice</Filter>
+      <Filter>practice\01_mnemonic</Filter>
     </ClCompile>
     <ClCompile Include="practice\mnemonic_div.cpp">
-      <Filter>practice</Filter>
+      <Filter>practice\01_mnemonic</Filter>
+    </ClCompile>
+    <ClCompile Include="practice\mnemonic_mul.cpp">
+      <Filter>practice\01_mnemonic</Filter>
+    </ClCompile>
+    <ClCompile Include="practice\mnemonic_sub.cpp">
+      <Filter>practice\01_mnemonic</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
       <UniqueIdentifier>{79c4bd83-31f9-4772-8d58-b8a36e7c63bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="practice\00_data_register">
+      <UniqueIdentifier>{671e699d-6e93-4be6-b3cc-5b15c6b90b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="practice\01_mnemonic">
+      <UniqueIdentifier>{ba4e8985-8f7c-4540-8a53-c75e6ccaae22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="practice\mnemonic_sub.h">
-      <Filter>practice</Filter>
+    <ClInclude Include="practice\data_register_eax.h">
+      <Filter>practice\00_data_register</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_add.h">
-      <Filter>practice</Filter>
-    </ClInclude>
-    <ClInclude Include="practice\data_register_eax.h">
-      <Filter>practice</Filter>
-    </ClInclude>
-    <ClInclude Include="practice\mnemonic_mul.h">
-      <Filter>practice</Filter>
+      <Filter>practice\01_mnemonic</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_div.h">
-      <Filter>practice</Filter>
-    </ClInclude>
-    <ClInclude Include="practice\mnemonic_mul_test.h">
-      <Filter>practice</Filter>
+      <Filter>practice\01_mnemonic</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_div_test.h">
-      <Filter>practice</Filter>
+      <Filter>practice\01_mnemonic</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_mul.h">
+      <Filter>practice\01_mnemonic</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_mul_test.h">
+      <Filter>practice\01_mnemonic</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_sub.h">
+      <Filter>practice\01_mnemonic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
