@@ -1,10 +1,10 @@
 ﻿#include <iostream>
 
-#include "practice/mnemonic_mul_test.h"
+#include "practice/mnemonic_div_test.h"
 
 int main()
 {
-	mnemonic_mul_test();
+	mnemonic_div_test();
 
 	return 0;
 }

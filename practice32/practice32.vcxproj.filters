@@ -42,5 +42,8 @@
     <ClInclude Include="practice\mnemonic_mul_test.h">
       <Filter>practice</Filter>
     </ClInclude>
+    <ClInclude Include="practice\mnemonic_div_test.h">
+      <Filter>practice</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
