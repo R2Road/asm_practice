@@ -1,9 +1,9 @@
 ﻿#include <iostream>
 
-#include "practice/mnemonic_add.h"
+#include "practice/mnemonic_mul.h"
 
 int main()
 {
-	std::cout << "CPP Add : " << cpp_add( 5, 4 ) << std::endl;
-	std::cout << "ASM Add : " << asm_add( 5, 4 ) << std::endl;
+	std::cout << "CPP Mul : " << cpp_mul( 5, 4 ) << std::endl;
+	std::cout << "ASM Mul : " << asm_mul( 5, 4 ) << std::endl;
 }

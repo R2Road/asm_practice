@@ -11,6 +11,9 @@
     <ClCompile Include="practice\data_register_eax.cpp">
       <Filter>practice</Filter>
     </ClCompile>
+    <ClCompile Include="practice\mnemonic_mul.cpp">
+      <Filter>practice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -25,6 +28,9 @@
       <Filter>practice</Filter>
     </ClInclude>
     <ClInclude Include="practice\data_register_eax.h">
+      <Filter>practice</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_mul.h">
       <Filter>practice</Filter>
     </ClInclude>
   </ItemGroup>
