@@ -1,9 +1,15 @@
 ﻿#include <iostream>
 
-#include "practice/mnemonic_mul.h"
+#include "practice/mnemonic_div.h"
 
 int main()
 {
-	std::cout << "CPP Mul : " << cpp_mul( 5, 4 ) << std::endl;
-	std::cout << "ASM Mul : " << asm_mul( 5, 4 ) << std::endl;
+	int left = 13;
+	int right = 4;
+
+	std::cout << "CPP Div : " << cpp_div( left, right ) << std::endl;
+	std::cout << "ASM Div : " << asm_div( left, right ) << std::endl;
+
+	std::cout << "CPP iDiv : " << cpp_idiv( -left, right ) << std::endl;
+	std::cout << "ASM iDiv : " << asm_idiv( -left, right ) << std::endl;
 }

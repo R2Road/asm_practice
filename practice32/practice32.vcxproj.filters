@@ -14,6 +14,9 @@
     <ClCompile Include="practice\mnemonic_mul.cpp">
       <Filter>practice</Filter>
     </ClCompile>
+    <ClCompile Include="practice\mnemonic_div.cpp">
+      <Filter>practice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -31,6 +34,9 @@
       <Filter>practice</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_mul.h">
+      <Filter>practice</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_div.h">
       <Filter>practice</Filter>
     </ClInclude>
   </ItemGroup>

@@ -21,12 +21,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="practice\data_register_eax.cpp" />
+    <ClCompile Include="practice\mnemonic_div.cpp" />
     <ClCompile Include="practice\mnemonic_mul.cpp" />
     <ClCompile Include="practice\mnemonic_sub.cpp" />
     <ClCompile Include="practice\mnemonic_add.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice\data_register_eax.h" />
+    <ClInclude Include="practice\mnemonic_div.h" />
     <ClInclude Include="practice\mnemonic_mul.h" />
     <ClInclude Include="practice\mnemonic_sub.h" />
     <ClInclude Include="practice\mnemonic_add.h" />
