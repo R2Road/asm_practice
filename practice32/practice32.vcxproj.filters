@@ -2,13 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="practice\eax.cpp">
-      <Filter>practice</Filter>
-    </ClCompile>
     <ClCompile Include="practice\mnemonic_sub.cpp">
       <Filter>practice</Filter>
     </ClCompile>
     <ClCompile Include="practice\mnemonic_add.cpp">
+      <Filter>practice</Filter>
+    </ClCompile>
+    <ClCompile Include="practice\data_register_eax.cpp">
       <Filter>practice</Filter>
     </ClCompile>
   </ItemGroup>
@@ -18,13 +18,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="practice\eax.h">
-      <Filter>practice</Filter>
-    </ClInclude>
     <ClInclude Include="practice\mnemonic_sub.h">
       <Filter>practice</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_add.h">
+      <Filter>practice</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\data_register_eax.h">
       <Filter>practice</Filter>
     </ClInclude>
   </ItemGroup>
