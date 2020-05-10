@@ -1,8 +1,8 @@
-﻿#include "practice/data_register_eax_test.h"
+﻿#include "practice/mnemonic_inc_test.h"
 
 int main()
 {
-	data_register_eax_test();
+	mnemonic_inc_test();
 
 	return 0;
 }
