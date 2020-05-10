@@ -32,3 +32,4 @@
 *.app
 practice32/.vs/*
 practice32/Debug/*
+practice32/Release/*
