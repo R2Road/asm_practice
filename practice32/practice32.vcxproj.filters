@@ -57,5 +57,8 @@
     <ClInclude Include="practice\mnemonic_sub_test.h">
       <Filter>practice\01_mnemonic</Filter>
     </ClInclude>
+    <ClInclude Include="practice\data_register_eax_test.h">
+      <Filter>practice\00_data_register</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

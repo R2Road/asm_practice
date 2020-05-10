@@ -28,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice\data_register_eax.h" />
+    <ClInclude Include="practice\data_register_eax_test.h" />
     <ClInclude Include="practice\mnemonic_add_test.h" />
     <ClInclude Include="practice\mnemonic_div.h" />
     <ClInclude Include="practice\mnemonic_div_test.h" />

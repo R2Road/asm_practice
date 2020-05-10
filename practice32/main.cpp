@@ -1,10 +1,8 @@
-﻿#include <iostream>
-
-#include "practice/mnemonic_sub_test.h"
+﻿#include "practice/data_register_eax_test.h"
 
 int main()
 {
-	mnemonic_sub_test();
+	data_register_eax_test();
 
 	return 0;
 }
