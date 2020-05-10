@@ -28,12 +28,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice\data_register_eax.h" />
+    <ClInclude Include="practice\mnemonic_add_test.h" />
     <ClInclude Include="practice\mnemonic_div.h" />
     <ClInclude Include="practice\mnemonic_div_test.h" />
     <ClInclude Include="practice\mnemonic_mul.h" />
     <ClInclude Include="practice\mnemonic_mul_test.h" />
     <ClInclude Include="practice\mnemonic_sub.h" />
     <ClInclude Include="practice\mnemonic_add.h" />
+    <ClInclude Include="practice\mnemonic_sub_test.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

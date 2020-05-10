@@ -51,5 +51,11 @@
     <ClInclude Include="practice\mnemonic_sub.h">
       <Filter>practice\01_mnemonic</Filter>
     </ClInclude>
+    <ClInclude Include="practice\mnemonic_add_test.h">
+      <Filter>practice\01_mnemonic</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_sub_test.h">
+      <Filter>practice\01_mnemonic</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
