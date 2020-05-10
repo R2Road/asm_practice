@@ -10,7 +10,9 @@ void mnemonic_div_test()
 
 	std::cout << "CPP Div : " << cpp_div( left, right ) << std::endl;
 	std::cout << "ASM Div : " << asm_div( left, right ) << std::endl;
+	std::cout << std::endl;
 
-	std::cout << "CPP Div : " << cpp_idiv( -left, right ) << std::endl;
-	std::cout << "ASM Div : " << asm_idiv( -left, right ) << std::endl;
+	std::cout << "CPP iDiv : " << cpp_idiv( -left, right ) << std::endl;
+	std::cout << "ASM iDiv : " << asm_idiv( -left, right ) << std::endl;
+	std::cout << std::endl;
 }
