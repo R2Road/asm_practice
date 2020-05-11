@@ -1,8 +1,8 @@
-﻿#include "practice/mnemonic_dec_test.h"
+﻿#include "practice/loop_test.h"
 
 int main()
 {
-	mnemonic_dec_test();
+	loop_test();
 
 	return 0;
 }
