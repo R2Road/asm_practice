@@ -1,8 +1,8 @@
-﻿#include "practice/mnemonic_inc_test.h"
+﻿#include "practice/mnemonic_dec_test.h"
 
 int main()
 {
-	mnemonic_inc_test();
+	mnemonic_dec_test();
 
 	return 0;
 }

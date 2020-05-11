@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="practice\data_register_eax.cpp" />
+    <ClCompile Include="practice\mnemonic_dec.cpp" />
     <ClCompile Include="practice\mnemonic_div.cpp" />
     <ClCompile Include="practice\mnemonic_inc.cpp" />
     <ClCompile Include="practice\mnemonic_mul.cpp" />
@@ -31,6 +32,8 @@
     <ClInclude Include="practice\data_register_eax.h" />
     <ClInclude Include="practice\data_register_eax_test.h" />
     <ClInclude Include="practice\mnemonic_add_test.h" />
+    <ClInclude Include="practice\mnemonic_dec.h" />
+    <ClInclude Include="practice\mnemonic_dec_test.h" />
     <ClInclude Include="practice\mnemonic_div.h" />
     <ClInclude Include="practice\mnemonic_div_test.h" />
     <ClInclude Include="practice\mnemonic_inc.h" />

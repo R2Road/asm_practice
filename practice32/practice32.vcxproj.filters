@@ -20,6 +20,9 @@
     <ClCompile Include="practice\mnemonic_inc.cpp">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClCompile>
+    <ClCompile Include="practice\mnemonic_dec.cpp">
+      <Filter>practice\01_mnemonic_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -70,6 +73,12 @@
       <Filter>practice\01_mnemonic_02</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_inc_test.h">
+      <Filter>practice\01_mnemonic_02</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_dec.h">
+      <Filter>practice\01_mnemonic_02</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_dec_test.h">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClInclude>
   </ItemGroup>
