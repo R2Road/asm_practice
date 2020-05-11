@@ -23,6 +23,7 @@
     <ClCompile Include="practice\data_register_eax.cpp" />
     <ClCompile Include="practice\loop.cpp" />
     <ClCompile Include="practice\mnemonic_bit_shl.cpp" />
+    <ClCompile Include="practice\mnemonic_bit_shr.cpp" />
     <ClCompile Include="practice\mnemonic_dec.cpp" />
     <ClCompile Include="practice\mnemonic_div.cpp" />
     <ClCompile Include="practice\mnemonic_inc.cpp" />
@@ -38,6 +39,8 @@
     <ClInclude Include="practice\mnemonic_add_test.h" />
     <ClInclude Include="practice\mnemonic_bit_shl.h" />
     <ClInclude Include="practice\mnemonic_bit_shl_test.h" />
+    <ClInclude Include="practice\mnemonic_bit_shr.h" />
+    <ClInclude Include="practice\mnemonic_bit_shr_test.h" />
     <ClInclude Include="practice\mnemonic_dec.h" />
     <ClInclude Include="practice\mnemonic_dec_test.h" />
     <ClInclude Include="practice\mnemonic_div.h" />
