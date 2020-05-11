@@ -17,14 +17,17 @@
     <ClCompile Include="practice\mnemonic_sub.cpp">
       <Filter>practice\01_mnemonic_01</Filter>
     </ClCompile>
-    <ClCompile Include="practice\mnemonic_inc.cpp">
+    <ClCompile Include="practice\loop.cpp">
+      <Filter>practice\02_loop%28 to do %29</Filter>
+    </ClCompile>
+    <ClCompile Include="practice\mnemonic_bit_shl.cpp">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClCompile>
     <ClCompile Include="practice\mnemonic_dec.cpp">
-      <Filter>practice\01_mnemonic_02</Filter>
+      <Filter>practice\01_mnemonic_01</Filter>
     </ClCompile>
-    <ClCompile Include="practice\loop.cpp">
-      <Filter>practice\02_loop</Filter>
+    <ClCompile Include="practice\mnemonic_inc.cpp">
+      <Filter>practice\01_mnemonic_01</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -40,7 +43,7 @@
     <Filter Include="practice\01_mnemonic_01">
       <UniqueIdentifier>{ba4e8985-8f7c-4540-8a53-c75e6ccaae22}</UniqueIdentifier>
     </Filter>
-    <Filter Include="practice\02_loop">
+    <Filter Include="practice\02_loop%28 to do %29">
       <UniqueIdentifier>{d3beaa99-0a30-4353-bdc1-8814d6b4be07}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -75,23 +78,29 @@
     <ClInclude Include="practice\data_register_eax_test.h">
       <Filter>practice\00_data_register</Filter>
     </ClInclude>
-    <ClInclude Include="practice\mnemonic_inc.h">
+    <ClInclude Include="practice\loop.h">
+      <Filter>practice\02_loop%28 to do %29</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\loop_test.h">
+      <Filter>practice\02_loop%28 to do %29</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_bit_shl.h">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClInclude>
-    <ClInclude Include="practice\mnemonic_inc_test.h">
+    <ClInclude Include="practice\mnemonic_bit_shl_test.h">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_dec.h">
-      <Filter>practice\01_mnemonic_02</Filter>
+      <Filter>practice\01_mnemonic_01</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_dec_test.h">
-      <Filter>practice\01_mnemonic_02</Filter>
+      <Filter>practice\01_mnemonic_01</Filter>
     </ClInclude>
-    <ClInclude Include="practice\loop.h">
-      <Filter>practice\02_loop</Filter>
+    <ClInclude Include="practice\mnemonic_inc.h">
+      <Filter>practice\01_mnemonic_01</Filter>
     </ClInclude>
-    <ClInclude Include="practice\loop_test.h">
-      <Filter>practice\02_loop</Filter>
+    <ClInclude Include="practice\mnemonic_inc_test.h">
+      <Filter>practice\01_mnemonic_01</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
