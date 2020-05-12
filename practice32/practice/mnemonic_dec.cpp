@@ -9,6 +9,11 @@ int cpp_dec_1( int left )
 }
 int cpp_dec_2( int left )
 {
+	left--;
+	return left;
+}
+int cpp_dec_3( int left )
+{
 	return left - 1;
 }
 

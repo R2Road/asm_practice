@@ -12,6 +12,7 @@ void mnemonic_dec_test()
 
 	std::cout << "CPP dec 1 : " << cpp_dec_1( left ) << std::endl;
 	std::cout << "CPP dec 2 : " << cpp_dec_2( left ) << std::endl;
+	std::cout << "CPP dec 3 : " << cpp_dec_3( left ) << std::endl;
 	std::cout << "ASM dec : " << asm_dec( left ) << std::endl;
 	std::cout << std::endl;
 }

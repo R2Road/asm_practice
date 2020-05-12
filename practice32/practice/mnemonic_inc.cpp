@@ -9,6 +9,11 @@ int cpp_inc_1( int left )
 }
 int cpp_inc_2( int left )
 {
+	left++;
+	return left;
+}
+int cpp_inc_3( int left )
+{
 	return left + 1;
 }
 
