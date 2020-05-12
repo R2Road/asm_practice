@@ -1,21 +1,49 @@
 #include "loop.h"
 
-void cpp_loop_for()
+int cpp_loop_while( const int left )
 {
-	for( int i = 0; i < 3; ++i )
-		;
+	int i = 0;
+	while( i < left )
+	{
+		++i;
+	}
+
+	return i;
+}
+int cpp_loop_for( const int left )
+{
+	int i = 0;
+	for( ; i < left; ++i );
+
+	return i;
 }
 
-void asm_loop_for()
+int asm_loop_dec( const int left )
 {
 	__asm
 	{
-		mov	CL, 10
-		L1: // label
+		mov	ecx, left;
+	L1: // label
 
 		// body
 
-		dec CL
-		jnz L1
+		dec ecx; // ecx == 0 > ZF is 1
+		jnz L1; // Jump if ZF( Zero Flag ) Not Zero
+
+		mov eax, ecx;
+	}
+}
+int asm_loop_inc( const int left )
+{
+	__asm
+	{
+		mov	eax, 0;
+	L1: // label
+
+		// body
+
+		inc eax;
+		cmp eax, left; // eax == left > ZF is 1
+		jne L1; // Jump if ZF( Zero Flag ) Not Zero
 	}
 }

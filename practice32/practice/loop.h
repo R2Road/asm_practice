@@ -1,6 +1,8 @@
 #pragma once
 
-void cpp_loop_for();
+int cpp_loop_while( const int left );
+int cpp_loop_for( const int left );
 
-void asm_loop_for();
+int asm_loop_dec( const int left );
+int asm_loop_inc( const int left );
 

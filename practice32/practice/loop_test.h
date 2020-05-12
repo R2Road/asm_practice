@@ -5,11 +5,14 @@
 
 void loop_test()
 {
-	std::cout << "CPP loop" << std::endl;
-	std::cout << "ASM loop" << std::endl;
+	const int left = 3;
 
-	cpp_loop_for();
-	asm_loop_for();
+	std::cout << "left : " << left << std::endl;
+	std::cout << std::endl;
 
+	std::cout << "CPP loop while : " << cpp_loop_while( left ) << std::endl;
+	std::cout << "CPP loop for : " << cpp_loop_for( left ) << std::endl;
+	std::cout << "ASM loop dec : " << asm_loop_dec( left ) << std::endl;
+	std::cout << "ASM loop inc : " << asm_loop_inc( left ) << std::endl;
 	std::cout << std::endl;
 }

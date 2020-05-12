@@ -1,8 +1,8 @@
-﻿#include "practice/mnemonic_bit_shr_test.h"
+﻿#include "practice/loop_test.h"
 
 int main()
 {
-	mnemonic_bit_shr_test();
+	loop_test();
 
 	return 0;
 }
