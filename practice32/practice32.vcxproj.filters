@@ -32,6 +32,9 @@
     <ClCompile Include="practice\mnemonic_bit_shr.cpp">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClCompile>
+    <ClCompile Include="practice\mnemonic_bit_neg.cpp">
+      <Filter>practice\01_mnemonic_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -109,6 +112,12 @@
       <Filter>practice\01_mnemonic_02</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_bit_shr_test.h">
+      <Filter>practice\01_mnemonic_02</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_bit_neg.h">
+      <Filter>practice\01_mnemonic_02</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\mnemonic_bit_neg_test.h">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClInclude>
   </ItemGroup>
