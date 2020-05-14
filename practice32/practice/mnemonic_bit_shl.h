@@ -1,6 +1,8 @@
 #pragma once
 
-int cpp_shl( const int left );
+unsigned char cpp_shl( const unsigned char left );
+unsigned char asm_shl( const unsigned char left );
 
-int asm_shl( const int left );
+char cpp_sal( const char left );
+char asm_sal( const char left );
 
