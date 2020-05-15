@@ -14,14 +14,14 @@ void mnemonic_bit_shl_test()
 
 	std::cout << "left unsigned max : " << ( temp_bitset = left_unsigned_max ) << ", " << static_cast<unsigned int>( left_unsigned_max ) << std::endl;
 	std::cout << "CPP shl : " << ( temp_bitset = cpp_shl( left_unsigned_max ) ) << ", " << static_cast<unsigned int>( cpp_shl( left_unsigned_max ) ) << std::endl;
-	std::cout << "ASM shl : " << ( temp_bitset = asm_shl( left_unsigned_max ) ) << ", " << static_cast<unsigned int>( cpp_shl( left_unsigned_max ) ) << std::endl;
+	std::cout << "ASM shl : " << ( temp_bitset = asm_shl( left_unsigned_max ) ) << ", " << static_cast<unsigned int>( asm_shl( left_unsigned_max ) ) << std::endl;
 	std::cout << std::endl;
 
 	const unsigned char left_unsigned_min = std::numeric_limits<unsigned char>::min();
 
 	std::cout << "left unsigned min : " << ( temp_bitset = left_unsigned_min ) << ", " << static_cast<unsigned int>( left_unsigned_min ) << std::endl;
 	std::cout << "CPP shl : " << ( temp_bitset = cpp_shl( left_unsigned_min ) ) << ", " << static_cast<unsigned int>( cpp_shl( left_unsigned_min ) ) << std::endl;
-	std::cout << "ASM shl : " << ( temp_bitset = asm_shl( left_unsigned_min ) ) << ", " << static_cast<unsigned int>( cpp_shl( left_unsigned_min ) ) << std::endl;
+	std::cout << "ASM shl : " << ( temp_bitset = asm_shl( left_unsigned_min ) ) << ", " << static_cast<unsigned int>( asm_shl( left_unsigned_min ) ) << std::endl;
 	std::cout << std::endl;
 
 
