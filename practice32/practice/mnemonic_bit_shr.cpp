@@ -1,14 +1,26 @@
 #include "mnemonic_bit_shr.h"
 
-int cpp_shr( const int left )
+unsigned char cpp_shr( const unsigned char left )
 {
 	return left >> 1;
 }
-
-int asm_shr( const int left )
+unsigned char asm_shr( const unsigned char left )
 {
 	__asm {
-		mov eax, left
-		shr eax, 1
+		mov al, left
+		shr al, 1
+	}
+}
+
+
+char cpp_sar( const char left )
+{
+	return left >> 1;
+}
+char asm_sar( const char left )
+{
+	__asm {
+		mov al, left
+		sar al, 1 // sal == shl, sar != shr
 	}
 }

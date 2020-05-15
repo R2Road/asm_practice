@@ -1,6 +1,8 @@
 #pragma once
 
-int cpp_shr( const int left );
+unsigned char cpp_shr( const unsigned char left );
+unsigned char asm_shr( const unsigned char left );
 
-int asm_shr( const int left );
+char cpp_sar( const char left );
+char asm_sar( const char left );
 
