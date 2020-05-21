@@ -10,6 +10,16 @@ int cpp_loop_while( const int left )
 
 	return i;
 }
+int cpp_loop_dowhile( const int left )
+{
+	int i = 0;
+	do
+	{
+		++i;
+	} while( i < left );
+
+	return i;
+}
 int cpp_loop_for( const int left )
 {
 	int i = 0;
