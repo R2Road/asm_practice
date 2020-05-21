@@ -35,6 +35,9 @@
     <ClCompile Include="practice\mnemonic_bit_neg.cpp">
       <Filter>practice\01_mnemonic_02</Filter>
     </ClCompile>
+    <ClCompile Include="practice\jump_je.cpp">
+      <Filter>practice\02_jump%28 in progress %29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -51,6 +54,9 @@
     </Filter>
     <Filter Include="practice\02_loop%28 to do %29">
       <UniqueIdentifier>{d3beaa99-0a30-4353-bdc1-8814d6b4be07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="practice\02_jump%28 in progress %29">
+      <UniqueIdentifier>{f054b2b4-95c2-4860-a183-3dcfb99b273f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +125,12 @@
     </ClInclude>
     <ClInclude Include="practice\mnemonic_bit_neg_test.h">
       <Filter>practice\01_mnemonic_02</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\jump_je.h">
+      <Filter>practice\02_jump%28 in progress %29</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\jump_je_test.h">
+      <Filter>practice\02_jump%28 in progress %29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
