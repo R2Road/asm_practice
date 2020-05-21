@@ -1,0 +1,2 @@
+Alt + 5 : show registry
+Alt + 8 : show disassembly
