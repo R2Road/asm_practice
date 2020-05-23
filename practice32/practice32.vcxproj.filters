@@ -18,7 +18,7 @@
       <Filter>practice\01_mnemonic_01</Filter>
     </ClCompile>
     <ClCompile Include="practice\loop.cpp">
-      <Filter>practice\02_loop%28 to do %29</Filter>
+      <Filter>practice\03_loop%28 to do %29</Filter>
     </ClCompile>
     <ClCompile Include="practice\mnemonic_bit_shl.cpp">
       <Filter>practice\01_mnemonic_02</Filter>
@@ -52,11 +52,11 @@
     <Filter Include="practice\01_mnemonic_01">
       <UniqueIdentifier>{ba4e8985-8f7c-4540-8a53-c75e6ccaae22}</UniqueIdentifier>
     </Filter>
-    <Filter Include="practice\02_loop%28 to do %29">
-      <UniqueIdentifier>{d3beaa99-0a30-4353-bdc1-8814d6b4be07}</UniqueIdentifier>
-    </Filter>
     <Filter Include="practice\02_jump%28 in progress %29">
       <UniqueIdentifier>{f054b2b4-95c2-4860-a183-3dcfb99b273f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="practice\03_loop%28 to do %29">
+      <UniqueIdentifier>{d3beaa99-0a30-4353-bdc1-8814d6b4be07}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -91,10 +91,10 @@
       <Filter>practice\00_data_register</Filter>
     </ClInclude>
     <ClInclude Include="practice\loop.h">
-      <Filter>practice\02_loop%28 to do %29</Filter>
+      <Filter>practice\03_loop%28 to do %29</Filter>
     </ClInclude>
     <ClInclude Include="practice\loop_test.h">
-      <Filter>practice\02_loop%28 to do %29</Filter>
+      <Filter>practice\03_loop%28 to do %29</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_bit_shl.h">
       <Filter>practice\01_mnemonic_02</Filter>
