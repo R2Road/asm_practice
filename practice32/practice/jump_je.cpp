@@ -1,4 +1,4 @@
-#include "loop.h"
+#include "jump_je.h"
 
 // je - Jump if ZF is equl Zero
 // setne - Set byte if not equal - ZF == 0
