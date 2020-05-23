@@ -1,7 +1,7 @@
 #include "jump_je.h"
 
-// je - Jump if ZF is equl Zero
-// setne - Set byte if not equal - ZF == 0
+// je - Jump if ZF is equl 1
+// setne - Set byte if not equal 1 - ZF == 0 --> set 1
 
 bool cpp_jump_je( const int left, const int right )
 {
@@ -38,7 +38,7 @@ bool asm_jump_je_2( const int left, const int right )
 		mov eax, left;
 		cmp eax, right;
 
-		// setne - Set byte if not equal - ZF == 0
+		// setne - Set byte if not equal 1
 		// zf == 1 -> 0
 		// zf == 0 -> 1
 		setne al;
