@@ -1,8 +1,8 @@
-﻿#include "practice/jump_jg_test.h"
+﻿#include "practice/flags_zf_test.h"
 
 int main()
 {
-	jump_jg_test();
+	flags_zf_test();
 
 	return 0;
 }

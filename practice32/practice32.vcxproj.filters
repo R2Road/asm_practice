@@ -44,6 +44,9 @@
     <ClCompile Include="practice\jump_jg.cpp">
       <Filter>practice\02_jump%28 in progress %29</Filter>
     </ClCompile>
+    <ClCompile Include="practice\flags_zf.cpp">
+      <Filter>practice\00_base</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -149,6 +152,12 @@
     </ClInclude>
     <ClInclude Include="practice\jump_jg_test.h">
       <Filter>practice\02_jump%28 in progress %29</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\flags_zf.h">
+      <Filter>practice\00_base</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\flags_zf_test.h">
+      <Filter>practice\00_base</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
