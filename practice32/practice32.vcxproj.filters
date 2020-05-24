@@ -3,7 +3,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="practice\data_register_eax.cpp">
-      <Filter>practice\00_data_register</Filter>
+      <Filter>practice\00_base</Filter>
     </ClCompile>
     <ClCompile Include="practice\mnemonic_add.cpp">
       <Filter>practice\01_mnemonic_01</Filter>
@@ -49,9 +49,6 @@
     <Filter Include="practice">
       <UniqueIdentifier>{79c4bd83-31f9-4772-8d58-b8a36e7c63bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="practice\00_data_register">
-      <UniqueIdentifier>{671e699d-6e93-4be6-b3cc-5b15c6b90b16}</UniqueIdentifier>
-    </Filter>
     <Filter Include="practice\01_mnemonic_02">
       <UniqueIdentifier>{5796b913-3c84-4396-8252-2ffee1b33d1a}</UniqueIdentifier>
     </Filter>
@@ -64,10 +61,13 @@
     <Filter Include="practice\03_loop%28 to do %29">
       <UniqueIdentifier>{d3beaa99-0a30-4353-bdc1-8814d6b4be07}</UniqueIdentifier>
     </Filter>
+    <Filter Include="practice\00_base">
+      <UniqueIdentifier>{671e699d-6e93-4be6-b3cc-5b15c6b90b16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice\data_register_eax.h">
-      <Filter>practice\00_data_register</Filter>
+      <Filter>practice\00_base</Filter>
     </ClInclude>
     <ClInclude Include="practice\mnemonic_add.h">
       <Filter>practice\01_mnemonic_01</Filter>
@@ -94,7 +94,7 @@
       <Filter>practice\01_mnemonic_01</Filter>
     </ClInclude>
     <ClInclude Include="practice\data_register_eax_test.h">
-      <Filter>practice\00_data_register</Filter>
+      <Filter>practice\00_base</Filter>
     </ClInclude>
     <ClInclude Include="practice\loop.h">
       <Filter>practice\03_loop%28 to do %29</Filter>
