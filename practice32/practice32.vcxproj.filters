@@ -41,6 +41,9 @@
     <ClCompile Include="practice\jump_jne.cpp">
       <Filter>practice\02_jump%28 in progress %29</Filter>
     </ClCompile>
+    <ClCompile Include="practice\jump_jg.cpp">
+      <Filter>practice\02_jump%28 in progress %29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -139,6 +142,12 @@
       <Filter>practice\02_jump%28 in progress %29</Filter>
     </ClInclude>
     <ClInclude Include="practice\jump_jne_test.h">
+      <Filter>practice\02_jump%28 in progress %29</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\jump_jg.h">
+      <Filter>practice\02_jump%28 in progress %29</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\jump_jg_test.h">
       <Filter>practice\02_jump%28 in progress %29</Filter>
     </ClInclude>
   </ItemGroup>

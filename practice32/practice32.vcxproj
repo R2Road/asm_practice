@@ -22,6 +22,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="practice\data_register_eax.cpp" />
     <ClCompile Include="practice\jump_je.cpp" />
+    <ClCompile Include="practice\jump_jg.cpp" />
     <ClCompile Include="practice\jump_jne.cpp" />
     <ClCompile Include="practice\loop.cpp" />
     <ClCompile Include="practice\mnemonic_bit_neg.cpp" />
@@ -39,6 +40,8 @@
     <ClInclude Include="practice\data_register_eax_test.h" />
     <ClInclude Include="practice\jump_je.h" />
     <ClInclude Include="practice\jump_je_test.h" />
+    <ClInclude Include="practice\jump_jg.h" />
+    <ClInclude Include="practice\jump_jg_test.h" />
     <ClInclude Include="practice\jump_jne.h" />
     <ClInclude Include="practice\jump_jne_test.h" />
     <ClInclude Include="practice\loop.h" />

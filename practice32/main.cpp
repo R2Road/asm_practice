@@ -1,8 +1,8 @@
-﻿#include "practice/jump_jne_test.h"
+﻿#include "practice/jump_jg_test.h"
 
 int main()
 {
-	jump_jne_test();
+	jump_jg_test();
 
 	return 0;
 }
