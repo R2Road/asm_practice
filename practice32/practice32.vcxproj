@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="practice\data_register_eax.cpp" />
+    <ClCompile Include="practice\flags_sf.cpp" />
     <ClCompile Include="practice\flags_zf.cpp" />
     <ClCompile Include="practice\jump_je.cpp" />
     <ClCompile Include="practice\jump_jg.cpp" />
@@ -39,6 +40,8 @@
   <ItemGroup>
     <ClInclude Include="practice\data_register_eax.h" />
     <ClInclude Include="practice\data_register_eax_test.h" />
+    <ClInclude Include="practice\flags_sf.h" />
+    <ClInclude Include="practice\flags_sf_test.h" />
     <ClInclude Include="practice\flags_zf.h" />
     <ClInclude Include="practice\flags_zf_test.h" />
     <ClInclude Include="practice\jump_je.h" />
