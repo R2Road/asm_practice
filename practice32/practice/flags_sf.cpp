@@ -6,9 +6,10 @@
 // open register window : alt + 5 in debug
 // mouse right click in register window
 // check flag
-// P: is zf
+// PL : is sf
 
 // "lahf" is load flags in to "ah"
+// | SF | ZF | xx | AF | xx | PF | xx | CF |
 
 int asm_flags_sf_inc_and_lahf( const int left )
 {
