@@ -50,6 +50,9 @@
     <ClCompile Include="practice\flags_sf.cpp">
       <Filter>practice\00_base</Filter>
     </ClCompile>
+    <ClCompile Include="practice\flags_af.cpp">
+      <Filter>practice\00_base</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="practice">
@@ -166,6 +169,12 @@
       <Filter>practice\00_base</Filter>
     </ClInclude>
     <ClInclude Include="practice\flags_sf_test.h">
+      <Filter>practice\00_base</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\flags_af_test.h">
+      <Filter>practice\00_base</Filter>
+    </ClInclude>
+    <ClInclude Include="practice\flags_af.h">
       <Filter>practice\00_base</Filter>
     </ClInclude>
   </ItemGroup>
