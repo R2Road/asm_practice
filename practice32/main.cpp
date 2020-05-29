@@ -1,8 +1,8 @@
-﻿#include "practice/flags_sf_test.h"
+﻿#include "practice/flags_zf_test.h"
 
 int main()
 {
-	flags_sf_test();
+	flags_zf_test();
 
 	return 0;
 }
