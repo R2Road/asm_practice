@@ -10,6 +10,7 @@
 // ZR is zf
 
 // "lahf" is load flags in to "ah"
+// | SF | ZF | xx | AF | xx | PF | xx | CF |
 
 int asm_flags_just_do_lahf()
 {
