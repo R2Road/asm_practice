@@ -11,7 +11,7 @@
 // "lahf" is load flags in to "ah"
 // | SF | ZF | xx | AF | xx | PF | xx | CF |
 
-int asm_flags_sf_inc_and_lahf( const int left )
+int asm_flags_sf_inc_and_lahf_for_signed_int( const int left )
 {
 	__asm
 	{
@@ -21,7 +21,7 @@ int asm_flags_sf_inc_and_lahf( const int left )
 		lahf;
 	}
 }
-int asm_flags_sf_dec_and_lahf( const int left )
+int asm_flags_sf_dec_and_lahf_for_signed_int( const int left )
 {
 	__asm
 	{
