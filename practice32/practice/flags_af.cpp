@@ -36,7 +36,7 @@ int asm_flags_af_inc_and_lahf_for_unsigned_char( unsigned char left )
 
 int cpp_flags_af_inc_and_lahf_for_signed_char( unsigned char left )
 {
-	--left;
+	++left;
 
 	__asm
 	{
@@ -48,8 +48,54 @@ int asm_flags_af_inc_and_lahf_for_signed_char( unsigned char left )
 	__asm
 	{
 		mov al, left;
-		dec al;
+		inc al;
 		
+		lahf;
+	}
+}
+
+
+
+int asm_flags_af_inc_and_lahf_for_unsigned_short( unsigned short left )
+{
+	__asm
+	{
+		mov ax, left;
+		inc ax;
+
+		lahf;
+	}
+}
+int asm_flags_af_inc_and_lahf_for_signed_short( short left )
+{
+	__asm
+	{
+		mov ax, left;
+		inc ax;
+
+		lahf;
+	}
+}
+
+
+
+int asm_flags_af_inc_and_lahf_for_unsigned_int( unsigned int left )
+{
+	__asm
+	{
+		mov eax, left;
+		inc eax;
+
+		lahf;
+	}
+}
+int asm_flags_af_inc_and_lahf_for_signed_int( int left )
+{
+	__asm
+	{
+		mov eax, left;
+		inc eax;
+
 		lahf;
 	}
 }
