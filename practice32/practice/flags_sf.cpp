@@ -21,8 +21,6 @@ int asm_flags_sf_inc_and_lahf( const int left )
 		lahf;
 	}
 }
-
-
 int asm_flags_sf_dec_and_lahf( const int left )
 {
 	__asm
@@ -30,6 +28,27 @@ int asm_flags_sf_dec_and_lahf( const int left )
 		mov eax, left;
 		dec eax;
 		
+		lahf;
+	}
+}
+
+int asm_flags_sf_inc_and_lahf_for_unsigned_int( const unsigned int left )
+{
+	__asm
+	{
+		mov eax, left;
+		inc eax;
+
+		lahf;
+	}
+}
+int asm_flags_sf_dec_and_lahf_for_unsigned_int( const unsigned int left )
+{
+	__asm
+	{
+		mov eax, left;
+		dec eax;
+
 		lahf;
 	}
 }

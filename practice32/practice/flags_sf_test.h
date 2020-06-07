@@ -16,61 +16,78 @@ void flags_sf_test()
 
 	std::bitset<std::numeric_limits<unsigned char>::digits> temp_bitset;
 
-	int left = 0;
+	{
+		int left = 0;
 
-	std::cout << "left : " << left;
-	std::cout << "\t";
-	std::cout << "process : + 1 ";
-	std::cout << std::endl;
+		std::cout << "signed int left : " << left << "\t" << "process : + 1 ";
+		std::cout << std::endl;
 
-	temp_bitset = asm_flags_sf_inc_and_lahf( left ) >> 8;
-	std::cout << "LAHF Result : " << temp_bitset;
-	std::cout << "\t\t";
-	std::cout << "Is On SF : " << temp_bitset.test( bit_position );
-	std::cout << std::endl;
-	std::cout << std::endl;
+		temp_bitset = asm_flags_sf_inc_and_lahf( left ) >> 8;
+		std::cout << "LAHF Result : " << temp_bitset;
+		std::cout << "\t\t";
+		std::cout << "Is On SF : " << temp_bitset.test( bit_position );
+		std::cout << std::endl << std::endl;
 
 
 
-	std::cout << "left : " << left;
-	std::cout << "\t";
-	std::cout << "process : - 1 ";
-	std::cout << std::endl;
+		std::cout << "signed int left : " << left << "\t" << "process : - 1 ";
+		std::cout << std::endl;
 
-	temp_bitset = asm_flags_sf_dec_and_lahf( left ) >> 8;
-	std::cout << "LAHF Result : " << temp_bitset;
-	std::cout << "\t\t";
-	std::cout << "Is On SF : " << temp_bitset.test( bit_position );
-	std::cout << std::endl;
-	std::cout << std::endl;
+		temp_bitset = asm_flags_sf_dec_and_lahf( left ) >> 8;
+		std::cout << "LAHF Result : " << temp_bitset;
+		std::cout << "\t\t";
+		std::cout << "Is On SF : " << temp_bitset.test( bit_position );
+		std::cout << std::endl << std::endl;
 
 
 
-	left = 1;
-	std::cout << "left : " << left;
-	std::cout << "\t";
-	std::cout << "process : - 1 ";
-	std::cout << std::endl;
+		left = 1;
+		std::cout << "signed int left : " << left << "\t" << "process : - 1 ";
+		std::cout << std::endl;
 
-	temp_bitset = asm_flags_sf_dec_and_lahf( left ) >> 8;
-	std::cout << "LAHF Result : " << temp_bitset;
-	std::cout << "\t\t";
-	std::cout << "Is On SF : " << temp_bitset.test( bit_position );
-	std::cout << std::endl;
-	std::cout << std::endl;
+		temp_bitset = asm_flags_sf_dec_and_lahf( left ) >> 8;
+		std::cout << "LAHF Result : " << temp_bitset;
+		std::cout << "\t\t";
+		std::cout << "Is On SF : " << temp_bitset.test( bit_position );
+		std::cout << std::endl << std::endl;
 
 
 
-	left = -1;
-	std::cout << "left : " << left;
-	std::cout << "\t";
-	std::cout << "process : + 1 ";
-	std::cout << std::endl;
+		left = -1;
+		std::cout << "signed int left : " << left << "\t" << "process : + 1 ";
+		std::cout << std::endl;
 
-	temp_bitset = asm_flags_sf_inc_and_lahf( left ) >> 8;
-	std::cout << "LAHF Result : " << temp_bitset;
-	std::cout << "\t\t";
-	std::cout << "Is On SF : " << temp_bitset.test( bit_position );
-	std::cout << std::endl;
-	std::cout << std::endl;
+		temp_bitset = asm_flags_sf_inc_and_lahf( left ) >> 8;
+		std::cout << "LAHF Result : " << temp_bitset;
+		std::cout << "\t\t";
+		std::cout << "Is On SF : " << temp_bitset.test( bit_position );
+		std::cout << std::endl << std::endl;
+	}
+
+
+	std::cout << std::endl << std::endl;
+
+
+	{
+		unsigned int left = 0;
+
+		std::cout << "unsigned int left : " << left << "\t" << "process : + 1 ";
+		std::cout << std::endl;
+
+		temp_bitset = asm_flags_sf_inc_and_lahf_for_unsigned_int( left ) >> 8;
+		std::cout << "LAHF Result : " << temp_bitset;
+		std::cout << "\t\t";
+		std::cout << "Is On SF : " << temp_bitset.test( bit_position );
+		std::cout << std::endl << std::endl;
+		
+
+		std::cout << "unsigned int left : " << left << "\t" << "process : - 1 ";
+		std::cout << std::endl;
+
+		temp_bitset = asm_flags_sf_dec_and_lahf_for_unsigned_int( left ) >> 8;
+		std::cout << "LAHF Result : " << temp_bitset;
+		std::cout << "\t\t";
+		std::cout << "Is On SF : " << temp_bitset.test( bit_position );
+		std::cout << std::endl << std::endl;
+	}
 }
